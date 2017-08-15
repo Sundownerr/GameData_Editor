@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewSkill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewSkill.Designer.cs">
+      <DependentUpon>AddNewSkill.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bonuses.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="Skills.Designer.cs">
       <DependentUpon>Skills.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewSkill.resx">
+      <DependentUpon>AddNewSkill.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
