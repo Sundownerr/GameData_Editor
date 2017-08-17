@@ -21,5 +21,11 @@ namespace GameData_Editor
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddNewSkill addNewSkillWindow = new AddNewSkill();
+            addNewSkillWindow.Show();
+        }
     }
 }

@@ -69,6 +69,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Add new";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -92,6 +93,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(53, 19);
             this.comboBox1.Name = "comboBox1";
@@ -145,6 +147,7 @@
             this.textBox1.Location = new System.Drawing.Point(9, 70);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(165, 207);
             this.textBox1.TabIndex = 8;
             // 
